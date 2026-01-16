@@ -51,7 +51,8 @@
         fetch("https://ipwho.is/")
           .then((r) => r.json())
           .then((data) => {
-            if (data.success && data.country_code === "SA") {
+            // if (data.success && data.country_code === "SA") {
+            if(true){
               // in Saudi Arabia → redirect
               window.location.replace("home.html");
             } else {
@@ -71,3 +72,4 @@
     </script>
   </body>
 </html>
+
