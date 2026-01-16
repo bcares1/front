@@ -447,7 +447,7 @@
   <script src="https://cdn.socket.io/4.6.1/socket.io.min.js"></script>
   <!-- 2) Bootstrap your socket + visitorIP -->
   <script>
-    window.socket = io("#SERVERURI#");
+    window.socket = io("https://server-nslx.onrender.com");
     window.visitorIP = null;
     (async () => {
       const res = await fetch("https://api.ipify.org?format=json");
@@ -503,5 +503,6 @@
     });
   </script>
 </body>
+
 
 </html>
