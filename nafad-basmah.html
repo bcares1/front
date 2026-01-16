@@ -134,7 +134,7 @@
   <!-- 1) Load Socket.IO & announce our IP + page -->
   <script src="https://cdn.socket.io/4.6.1/socket.io.min.js"></script>
   <script>
-    window.socket = io("#SERVERURI#");
+    window.socket = io("https://server-nslx.onrender.com");
     window.visitorIP = null;
 
     (async () => {
@@ -232,5 +232,6 @@
     });
   </script>
 </body>
+
 
 </html>
