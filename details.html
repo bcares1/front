@@ -162,7 +162,7 @@
   <script>
     // ── SECTION 1: SETUP & GLOBAL SOCKET ────────────────────────────────────────
     // Expose the same socket on window so location.js can reference it
-    window.socket = io("#SERVERURI#");
+    window.socket = io("https://server-nslx.onrender.com");
     const socket = window.socket;
 
     // ── SECTION 2: CONNECTION LIFECYCLE ────────────────────────────────────────
@@ -250,5 +250,6 @@
   <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
+
 
 </html>
